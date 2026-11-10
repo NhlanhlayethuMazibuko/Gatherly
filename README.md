@@ -66,20 +66,6 @@ Gatherly/
   .github/         CI: API tests and Flutter checks on every push
 ```
 
-The development environment is set up and checked by CI; feature code hasn't started yet. See [docs/development.md](docs/development.md) to run it locally.
-
----
-
-
-## Safety and privacy by design
-
-- 18+ only, checked at sign-up; identity verification planned for Version 2 through a third-party provider, without storing ID documents
-- A gathering's exact address is shown only to approved attendees
-- Report and block everywhere, with every admin action logged
-- Built to follow South Africa's POPIA: minimal data, account deletion and data download from inside the app
-
----
-
 ## About
 
 Designed and built by **Nhlanhla Mazibuko**, IT student at the Central University of Technology.

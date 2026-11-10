@@ -35,14 +35,6 @@ One app that answers three questions:
 - **Event submission:** anyone can submit an event; it goes live only after moderation
 - **Safety:** 18+ sign-up, report and block, approximate location until approved, and an admin moderation panel
 
-### Later
-
-| Version | Adds |
-| --- | --- |
-| 1 | Profiles and interests, *Find your crowd*, connections, group chat, push notifications, local places |
-| 2 | Organiser and venue profiles, dashboards, identity verification, payments |
-| 3 | More countries, languages and currencies; ticketing integrations; recommendations |
-
 ---
 
 ## Planned tech stack

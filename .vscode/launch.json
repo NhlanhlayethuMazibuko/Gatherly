@@ -1,0 +1,32 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "API (ASP.NET Core)",
+      "type": "coreclr",
+      "request": "launch",
+      "preLaunchTask": "build api",
+      "program": "${workspaceFolder}/api/src/Gatherly.Api/bin/Debug/net10.0/Gatherly.Api.dll",
+      "cwd": "${workspaceFolder}/api/src/Gatherly.Api",
+      "env": {
+        "ASPNETCORE_ENVIRONMENT": "Development",
+        "ASPNETCORE_URLS": "http://localhost:5023"
+      }
+    },
+    {
+      "name": "Mobile app (Flutter)",
+      "type": "dart",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/apps/mobile",
+      "program": "lib/main.dart"
+    },
+    {
+      "name": "Admin panel (Flutter web)",
+      "type": "dart",
+      "request": "launch",
+      "cwd": "${workspaceFolder}/apps/admin",
+      "program": "lib/main.dart",
+      "args": ["-d", "chrome"]
+    }
+  ]
+}

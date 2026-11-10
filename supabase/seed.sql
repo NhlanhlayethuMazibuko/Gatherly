@@ -1,0 +1,2 @@
+-- Test data for local development (cities, categories, vibes, sample events).
+-- Filled in during milestone 3, once the tables exist in supabase/migrations.

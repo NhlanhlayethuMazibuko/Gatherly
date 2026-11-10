@@ -96,6 +96,25 @@ flowchart TD
 
 ---
 
+## Project structure
+
+```
+Gatherly/
+  apps/
+    mobile/        Flutter app for Android and iOS
+    admin/         Flutter web admin panel for moderators
+  api/
+    src/           ASP.NET Core Web API
+    tests/         xUnit tests
+  supabase/        database config, migrations and seed data
+  docs/            development setup and project docs
+  .github/         CI: API tests and Flutter checks on every push
+```
+
+The development environment is set up and checked by CI; feature code hasn't started yet. See [docs/development.md](docs/development.md) to run it locally.
+
+---
+
 ## Roadmap
 
 - [ ] **1. Design foundations:** colours, type, components, navigation

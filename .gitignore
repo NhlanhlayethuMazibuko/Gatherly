@@ -1,0 +1,19 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# .NET
+api/**/bin/
+api/**/obj/
+api/**/TestResults/
+*.user
+.vs/
+
+# Flutter apps have their own .gitignore files in apps/mobile and apps/admin.
+
+# Editors and OS
+.idea/
+*.iml
+.DS_Store
+Thumbs.db

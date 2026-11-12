@@ -4,7 +4,7 @@
 
 Gatherly is an 18+ app that helps students and young adults find things to do near them, and people to do them with. It brings events, user-hosted gatherings and local discovery together in one place.
 
-> **Status: planning and design.** I'm currently designing the app in Figma and defining the requirements. Code starts once the core screens and design system are done.
+> **Status: planning and design.** I'm currently designing the app in Figma and defining the requirements. 
 
 ---
 
@@ -23,8 +23,6 @@ One app that answers three questions:
 ---
 
 ## Features
-
-### First release (MVP)
 
 - **Discover:** a feed of events and gatherings in your city, with search, filters and a map
 - **Event details:** date, venue, price, age limit, vibes, organiser, directions and ticket links
@@ -67,7 +65,6 @@ Gatherly/
   docs/            development setup and project docs
   .github/         CI: API tests and Flutter checks on every push
 ```
-
 
 ## About
 
